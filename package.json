@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "glampingonwine",
-  "homepage": "https://ruckuslabs.github.io/glampingonwine",
+  "homepage": "https://glampingonwine.com",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -10,7 +10,7 @@
     "dev": "preact watch",
     "lint": "eslint src",
     "test": "jest",
-    "predeploy": "npm run build",
+    "predeploy": "preact build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
