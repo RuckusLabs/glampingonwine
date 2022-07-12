@@ -1,0 +1,76 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "name": "Pinky",
+      "type": "1959 Streamline Dutchess",
+      "city": "Fredericksburg",
+      "state": "Texas",
+      "beds": "3",
+      "baths": "1",
+      "guests": "4",
+      "image": "../../assets/images/pinky-hero.jpg",
+      "links": [
+        {
+          "airbnb": "https://abnb.me/bxGkor1dyrb",
+          "vrbo": "",
+          "hipcamp": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Groovy Cowboy",
+      "type": "1970 Airstream Sovereign",
+      "city": "Fredericksburg",
+      "state": "Texas",
+      "beds": "1",
+      "baths": "1",
+      "guests": "6",
+      "image": "../../assets/images/groovy-cowboy-hero.jpg",
+      "links": [
+        {
+          "airbnb": "https://abnb.me/FLYENWNzyrb",
+          "vrbo": "",
+          "hipcamp": "https://www.hipcamp.com/en-US/land/california-the-western-style-nelhwj8j/sites/610388?siteId=610388&adults=1&children=0"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Rhinestone Cowboy",
+      "type": "1961 Streamline Duke",
+      "city": "Temecula",
+      "state": "California",
+      "beds": "1",
+      "baths": "1",
+      "guests": "6",
+      "image": "../../assets/images/rhinestone-cowboy-hero.jpg",
+      "links": [
+        {
+          "airbnb": "https://abnb.me/eBOIkHheyrb",
+          "vrbo": "https://www.vrbo.com/2626353?unitId=3196929",
+          "hipcamp": "https://www.hipcamp.com/en-US/land/california-the-western-style-nelhwj8j/sites/626756?siteId=626756&adults=1&children=0"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Cosmic Cowboy",
+      "type": "1959 Streamline Duke",
+      "city": "Temecula",
+      "state": "California",
+      "beds": "1",
+      "baths": "1",
+      "guests": "6",
+      "image": "../../assets/images/cosmic-cowboy-hero.jpg",
+      "links": [
+        {
+          "airbnb": "",
+          "vrbo": "",
+          "hipcamp": ""
+        }
+      ]
+    }
+  ]
+}

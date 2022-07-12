@@ -1,0 +1,44 @@
+h1, h2, h3, h4, p {
+	margin: 0;
+	line-height: 1.5;
+}
+
+h2+p, p+p {
+	margin-top: 15px;
+}
+
+p+h2 {
+	margin-top: 25px;
+}
+
+h1 {
+	font-size: 125px;
+	font-weight: black;
+	text-align: center;
+	letter-spacing: -5px;
+}
+
+p {
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+	transition: opacity 0.2s;
+	font-weight: bold;
+	color: var(--umber);
+}
+
+a:visited {
+	color: inherit;
+}
+
+a:hover {
+	opacity: 0.5;
+}
+
+@media screen and (min-width: 0px) and (max-width:500px) {
+	h1 {
+		font-size: 56px;
+	}
+}

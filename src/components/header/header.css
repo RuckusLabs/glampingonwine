@@ -1,0 +1,53 @@
+.header nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 25px;
+}
+
+.header subnav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header .active {
+	border-bottom: 1px solid var(--umber);
+}
+
+nav a {
+	display: flex;
+	align-items: center;
+	padding: 35px;
+	padding-bottom: 25px;
+	transition: transform 0.2s ease-in-out;
+}
+
+nav a:hover {
+	transform: translateY(-5px);
+}
+
+nav a.active:hover {
+	transform: none;
+}
+
+subnav a img {
+	margin-right: 5px;
+}
+
+.menuIcon {
+	display: none;
+}
+
+/* Mobile */
+@media screen and (min-width: 0px) and (max-width:500px) {
+	.header nav {
+		flex-direction: column;
+		padding: 15px;
+	}
+
+	nav a {
+		padding: 15px;
+		padding-bottom: 15px;
+	}
+}
